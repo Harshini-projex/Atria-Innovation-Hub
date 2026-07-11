@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    cursor:pointer;
+    background-image: url("https://img.freepik.com/premium-photo/dark-wall-halloween-background-concept-scary-background-horror-texture-banner_526818-623.jpg?semt=ais_hybrid&w=740&q=80");
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login-box {
+  background: rgba(60, 73, 100, 0.75);
+  padding: 40px 50px;
+  border-radius: 14px;
+  width: 420px;          /* Increased size */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.login-box h2 {
+  color: white;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 26px;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.doc-btn {
+  display: block;
+  margin-top: 10px;
+  padding: 8px;
+  text-align: center;
+  background: #2a5bd7;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.doc-btn:hover {
+  background: #3c7cff;
+}
+
+.login-box button:hover {
+  background: #00a000;
+  transform: scale(1.03);
+}
+
+
+.sidebar.closed {
+  width: 60px;
+}
+.sidebar.closed ul li {
+  display: none;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.card-actions button {
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.comment-box {
+  margin-top: 10px;
+  display: flex;
+  gap: 6px;
+}
+
+.comment-box input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: none;
+}
+
+.comment-box button {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.add-project input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 50%;
+}
+.add-project button {
+  padding: 10px 20px;
+}
+
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  background-color: #1e293b;
+  color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor:pointer;
+}
+.sidebar h2 {
+    color: whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    margin-bottom: 40px;
+    cursor:pointer;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 20px 0;
+}
+.sidebar ul li a {
+    text-decoration: none;
+    color: #a2acd5;
+    font-size: 16px;
+}
+.sidebar .active{
+    font-weight: bold;
+    color:#ffffff;
+}
+.sidebar ul li a:hover {
+    color:#ffffff;
+    font-weight: bold;
+}
+.bottom{
+    margin-top: auto;
+}
+.main {
+  margin-left: 240px;   
+  padding: 20px;
+  min-height: 100vh;
+}
+.title{
+  text-align: center;
+  color: white;
+}
+.subtitle{
+  text-align: center;
+  color: white;
+}
+.topbar input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.submit-btn {
+    background:rgb(0, 128, 0);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+.submit-btn:hover {
+    transform: scale(1.05);
+    background: rgba(91, 111, 155, 0.5);
+}
+.sign-out-btn{
+    background:rgb(210, 0, 0);
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.sign-out-btn:hover {
+    transform: scale(1.05);
+    background: rgba(91, 111, 155, 0.5);
+}
+.card {
+    width: 280px;
+    background: rgba(60, 73, 100, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(1,1,1,1.1);
+    display: inline-block;
+    margin: 15px;
+    vertical-align: top;
+    cursor:pointer;
+}
+.card img {
+    width: 100%;
+    height: 180px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card h3 {
+    margin: 10px 0 5px;
+    color: whitesmoke
+}
+.card p {
+    font-size: 14px;
+    color: #a8a8a8;
+}
+.card:hover {
+ transform: scale(1.05);
+ background: rgba(91, 111, 155, 0.5);
+}
+.author span {
+    font-size: 13px;
+    color: #7c84a4;
+    font-weight: bold;
+}

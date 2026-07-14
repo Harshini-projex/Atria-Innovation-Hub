@@ -24,7 +24,10 @@ The application focuses on delivering a modern and responsive user experience an
 Note: Backend functionality such as authentication, database storage, and project management is not yet implemented. The current project focuses on frontend development.
 
 **🛠️ Tech Stack**
-React.js,JavaScript (ES6), HTML5, CSS3
+React.js
+JavaScript (ES6)
+HTML5
+CSS3
 
 **🚀 Getting Started**
 Clone the Repository
